@@ -1,15 +1,15 @@
 function call(name,callback1,callback2) {
     if(name =="riyas" ) {
     callback1(); 
-    } if(name == "tharzeez") {
+    } if(name == "Nazar") {
     callback2()
     };
     }
     
-    call("tharzeez", function callback1() {
+    call("Nazar", function callback1() {
     console.log("Riyas");
     },
     function callback2() {
-    console.log("Tharzeez");
+    console.log("Nazar");
     });
 
